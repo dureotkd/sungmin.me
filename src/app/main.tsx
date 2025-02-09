@@ -1,4 +1,5 @@
 "use client";
+
 import { motion } from "framer-motion";
 
 const textVariants = {
@@ -24,28 +25,42 @@ const listItemVariants = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
 };
 
-export default function MyComponent() {
+export default function Main() {
   const projects = [
     {
-      title: "areleme",
-      link: "",
+      title: "부동산 매물 알리미",
+      link: "https://www.areleme.com/",
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quae, blanditiis minima culpa quaerat optio cupiditate itaque. Eaque dignissimos dicta reprehenderit eveniet, possimus ab cum ea illum quis modi veniam?",
-      languages: ["Typescript"],
+      languages: ["Next.js", "Node.js", "Jest", "Typescript"],
     },
     {
-      title: "areleme",
+      title: "League of Legends 밴픽 시뮬레이션",
       link: "",
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quae, blanditiis minima culpa quaerat optio cupiditate itaque. Eaque dignissimos dicta reprehenderit eveniet, possimus ab cum ea illum quis modi veniam?",
-      languages: ["Typescript"],
+      languages: ["React", "Node.js", "Javascript"],
     },
     {
-      title: "areleme",
+      title: "Programmers",
       link: "",
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quae, blanditiis minima culpa quaerat optio cupiditate itaque. Eaque dignissimos dicta reprehenderit eveniet, possimus ab cum ea illum quis modi veniam?",
-      languages: ["Typescript"],
+      languages: ["React", "Node.js", "Javascript"],
+    },
+    {
+      title: "비드코칭연구소(주)",
+      link: "https://www.okems.net/",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quae, blanditiis minima culpa quaerat optio cupiditate itaque. Eaque dignissimos dicta reprehenderit eveniet, possimus ab cum ea illum quis modi veniam?",
+      languages: ["PHP", "Laravel", "Mysql", "React", "Rocky Linux"],
+    },
+    {
+      title: "(주)터전",
+      link: "https://www.terjeon.com/",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quae, blanditiis minima culpa quaerat optio cupiditate itaque. Eaque dignissimos dicta reprehenderit eveniet, possimus ab cum ea illum quis modi veniam?",
+      languages: ["PHP", "Laravel", "Mysql", "React", "Rocky Linux"],
     },
   ];
 
@@ -95,17 +110,22 @@ export default function MyComponent() {
               >
                 <div className="flex flex-col">
                   <div>
-                    <a className="text-xl hover:underline" href={item.link}>
-                      {item.title}
-                    </a>
+                    <div className="md:inline-block md:mr-sm md:mb-0 mb-sm">
+                      <a className="text-xl hover:underline" href={item.link}>
+                        {item.title}
+                      </a>
+                    </div>
                     {item.languages.map((lang, _index) => (
-                      <span className="text-sm ml-sm" key={`lang-${_index}`}>
+                      <span
+                        className="text-sm mr-sm bg-gray-800 pl-sm pr-sm pt-tiny pb-tiny border-primary"
+                        key={`lang-${_index}`}
+                      >
                         {lang}
                       </span>
                     ))}
                   </div>
                   <div className="mt-sm">
-                    <p>{item.description}</p>
+                    <p className="leading-7">{item.description}</p>
                   </div>
                 </div>
               </motion.li>

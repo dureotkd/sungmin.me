@@ -28,6 +28,7 @@ export default {
         auto: "auto",
       },
       padding: {
+        tiny: "3px",
         sm: "8px",
         md: "16px",
         lg: "24px",
