@@ -50,7 +50,7 @@ export default {
         "7xl": "5rem",
       },
       fontFamily: {
-        Pretendard: ["Pretendard"],
+        merriweather: ["Merriweather", '"Spoqa Han Sans"', "sans-serif"], // 커스텀 폰트 조합
       },
       container: {
         padding: {

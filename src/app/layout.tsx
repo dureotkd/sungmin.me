@@ -1,5 +1,14 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import type { Metadata } from "next";
+import { Merriweather } from "next/font/google";
+
 import "./globals.css";
+
+const font1 = Merriweather({
+  weight: ["400", "700"], // 필요한 두께 선택
+  subsets: ["latin"], // 사용할 문자셋
+  variable: "--font-merriweather", // Tailwind에서 사용 가능하도록 변수 선언
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -12,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="ko">
       <body>{children}</body>
     </html>
   );
