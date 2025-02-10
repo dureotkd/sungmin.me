@@ -30,36 +30,54 @@ export default function Main() {
     {
       title: "부동산 매물 알리미",
       link: "https://www.areleme.com/",
-      description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quae, blanditiis minima culpa quaerat optio cupiditate itaque. Eaque dignissimos dicta reprehenderit eveniet, possimus ab cum ea illum quis modi veniam?",
+      descriptions: [
+        "3Layer architecture(Controller -> Service Layer -> Data Access Layer)",
+        "Promise.all 병렬 처리로 부동산 수집 속도 평균 2.5초 단축",
+        "Bundle Analyzer 활용으로 번들 크기 30% 감소",
+      ],
       languages: ["Next.js", "Node.js", "Jest", "Typescript"],
+    },
+    {
+      title: "Ethicstem",
+      link: "https://ethicstem.kr/",
+      descriptions: [
+        "도메인 정책 수립 및 URL 표준화(canonical)",
+        "반응형 웹 개발",
+      ],
+      languages: ["HTML", "CSS", "Javascript"],
     },
     {
       title: "League of Legends 밴픽 시뮬레이션",
       link: "",
-      description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quae, blanditiis minima culpa quaerat optio cupiditate itaque. Eaque dignissimos dicta reprehenderit eveniet, possimus ab cum ea illum quis modi veniam?",
+      descriptions: [
+        "FSD 아키텍쳐 개발",
+        "Socket.io를 활용한 양방향 이벤트 통신 개발",
+      ],
       languages: ["React", "Node.js", "Javascript"],
     },
     {
       title: "Programmers",
       link: "",
-      description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quae, blanditiis minima culpa quaerat optio cupiditate itaque. Eaque dignissimos dicta reprehenderit eveniet, possimus ab cum ea illum quis modi veniam?",
+      descriptions: [
+        "MVVM 구조",
+        "Prototype 상속을 활용한 정답 검토 시스템 개발",
+      ],
       languages: ["React", "Node.js", "Javascript"],
     },
     {
       title: "비드코칭연구소(주)",
       link: "https://www.okems.net/",
-      description:
+      descriptions: [
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quae, blanditiis minima culpa quaerat optio cupiditate itaque. Eaque dignissimos dicta reprehenderit eveniet, possimus ab cum ea illum quis modi veniam?",
+      ],
       languages: ["PHP", "Laravel", "Mysql", "React", "Rocky Linux"],
     },
     {
       title: "(주)터전",
       link: "https://www.terjeon.com/",
-      description:
+      descriptions: [
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quae, blanditiis minima culpa quaerat optio cupiditate itaque. Eaque dignissimos dicta reprehenderit eveniet, possimus ab cum ea illum quis modi veniam?",
+      ],
       languages: ["PHP", "Laravel", "Mysql", "React", "Rocky Linux"],
     },
   ];
@@ -111,7 +129,11 @@ export default function Main() {
                 <div className="flex flex-col">
                   <div>
                     <div className="md:inline-block md:mr-sm md:mb-0 mb-sm">
-                      <a className="text-xl hover:underline" href={item.link}>
+                      <a
+                        className="text-xl hover:underline underline-offset-[6px]"
+                        href={item.link}
+                        target="_blank"
+                      >
                         {item.title}
                       </a>
                     </div>
@@ -125,7 +147,13 @@ export default function Main() {
                     ))}
                   </div>
                   <div className="mt-sm">
-                    <p className="leading-7">{item.description}</p>
+                    {item.descriptions.map((des, key) => {
+                      return (
+                        <p className="mt-sm text-silver800" key={`des-${key}`}>
+                          - {des}
+                        </p>
+                      );
+                    })}
                   </div>
                 </div>
               </motion.li>
