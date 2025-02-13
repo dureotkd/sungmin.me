@@ -15,6 +15,9 @@ export const metadata: Metadata = {
   description: "sungmin portfolio website",
   keywords:
     "sungmin.my, portfolio, portfolio website, frontend developer, frontend, backend developer, web developer, 개발자,웹 개발자,",
+  // icons : {
+  //   icon : []
+  // }
 };
 
 export default function RootLayout({
