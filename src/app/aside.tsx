@@ -7,11 +7,11 @@ function aside() {
   return (
     <aside className="md:max-w-64 mr-md mb-md">
       <div className="flex md:flex-col">
-        <div className="min-w-28 mr-md">
+        <div className="md:mr-0 min-w-28 mr-md">
           <Image
             className="md:w-full w-32 rounded-sm"
-            src="/face.jpg"
-            alt="증명사진"
+            src="/face2.jpg"
+            alt="컨셉_사진"
             width={200}
             height={200}
           />
