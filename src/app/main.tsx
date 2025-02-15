@@ -29,7 +29,7 @@ export default function Main() {
   const projects = [
     {
       title: "부동산 매물 알리미",
-      link: "https://www.areleme.com/",
+      link: "https://www.areleme.com",
       descriptions: [
         "3Layer architecture(Controller -> Service Layer -> Data Access Layer)",
         "Promise.all 병렬 처리로 부동산 수집 속도 평균 2.5초 단축",
@@ -39,7 +39,7 @@ export default function Main() {
     },
     {
       title: "Ethicstem",
-      link: "https://ethicstem.kr/",
+      link: "https://ethicstem.kr",
       descriptions: [
         "도메인 정책 수립 및 URL 표준화(canonical)",
         "반응형 웹 개발",
@@ -48,7 +48,7 @@ export default function Main() {
     },
     {
       title: "League of Legends 밴픽 시뮬레이션",
-      link: "",
+      link: "https://lolban.vercel.app",
       descriptions: [
         "FSD 아키텍쳐 개발",
         "Socket.io를 활용한 양방향 이벤트 통신 개발",
@@ -57,7 +57,7 @@ export default function Main() {
     },
     {
       title: "Programmers",
-      link: "",
+      link: "https://exam-six-cyan.vercel.app",
       descriptions: [
         "MVVM 구조",
         "Prototype 상속을 활용한 정답 검토 시스템 개발",
@@ -66,7 +66,7 @@ export default function Main() {
     },
     {
       title: "비드코칭연구소(주)",
-      link: "https://www.okems.net/",
+      link: "https://www.okems.net",
       descriptions: [
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quae, blanditiis minima culpa quaerat optio cupiditate itaque. Eaque dignissimos dicta reprehenderit eveniet, possimus ab cum ea illum quis modi veniam?",
       ],
