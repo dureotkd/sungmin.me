@@ -28,6 +28,15 @@ const listItemVariants = {
 export default function Main() {
   const projects = [
     {
+      title: "Programmers",
+      link: "https://exam-six-cyan.vercel.app",
+      descriptions: [
+        "MVVM 구조",
+        "Prototype 상속을 활용한 정답 검토 시스템 개발",
+      ],
+      languages: ["React", "Node.js", "Javascript"],
+    },
+    {
       title: "부동산 매물 알리미",
       link: "https://www.areleme.com",
       descriptions: [
@@ -56,13 +65,14 @@ export default function Main() {
       languages: ["React", "Node.js", "Javascript"],
     },
     {
-      title: "Programmers",
-      link: "https://exam-six-cyan.vercel.app",
+      title: "모주지 - 선물 큐레이션 서비스",
+      link: "https://disquiet.io/product/%EB%AA%A8%EC%A3%BC%EC%A7%80",
       descriptions: [
-        "MVVM 구조",
-        "Prototype 상속을 활용한 정답 검토 시스템 개발",
+        "Android & IOS 배포",
+        "코드푸쉬 개발",
+        "Proguard를 통한 App Volumne 최적화",
       ],
-      languages: ["React", "Node.js", "Javascript"],
+      languages: ["React Native CLI", "Javascript"],
     },
     {
       title: "비드코칭연구소(주)",
