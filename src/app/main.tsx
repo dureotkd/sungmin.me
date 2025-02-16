@@ -31,8 +31,8 @@ export default function Main() {
       title: "Programmers",
       link: "https://exam-six-cyan.vercel.app",
       descriptions: [
-        "MVVM 구조",
-        "Prototype 상속을 활용한 정답 검토 시스템 개발",
+        "Prototype 상속을 활용한 정답 검토 시스템 구현",
+        "tailwind를 활용한 반응형 웹 개발",
       ],
       languages: ["React", "Node.js", "Javascript"],
     },
@@ -40,6 +40,7 @@ export default function Main() {
       title: "부동산 매물 알리미",
       link: "https://www.areleme.com",
       descriptions: [
+        "FSD 아키텍처 개발",
         "3Layer architecture(Controller -> Service Layer -> Data Access Layer)",
         "Promise.all 병렬 처리로 부동산 수집 속도 평균 2.5초 단축",
         "Bundle Analyzer 활용으로 번들 크기 30% 감소",
@@ -51,7 +52,7 @@ export default function Main() {
       link: "https://ethicstem.kr",
       descriptions: [
         "도메인 정책 수립 및 URL 표준화(canonical)",
-        "반응형 웹 개발",
+        "미디어 쿼리를 활용한 반응형 웹 개발",
       ],
       languages: ["HTML", "CSS", "Javascript"],
     },
@@ -59,8 +60,8 @@ export default function Main() {
       title: "League of Legends 밴픽 시뮬레이션",
       link: "https://lolban.vercel.app",
       descriptions: [
-        "FSD 아키텍쳐 개발",
-        "Socket.io를 활용한 양방향 이벤트 통신 개발",
+        "MVC 아키텍처 개발",
+        "Socket.io를 활용한 양방향 통신 이벤트 개발",
       ],
       languages: ["React", "Node.js", "Javascript"],
     },
@@ -69,7 +70,8 @@ export default function Main() {
       link: "https://disquiet.io/product/%EB%AA%A8%EC%A3%BC%EC%A7%80",
       descriptions: [
         "Android & IOS 배포",
-        "코드푸쉬 개발",
+        "무중단 업데이트를 위한 코드푸쉬 개발",
+        "Google,Apple,카카오톡 로그인 구현",
         "Proguard를 통한 App Volumne 최적화",
       ],
       languages: ["React Native CLI", "Javascript"],
@@ -78,16 +80,16 @@ export default function Main() {
       title: "비드코칭연구소(주)",
       link: "https://www.okems.net",
       descriptions: [
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quae, blanditiis minima culpa quaerat optio cupiditate itaque. Eaque dignissimos dicta reprehenderit eveniet, possimus ab cum ea illum quis modi veniam?",
+        "연간 100만 건의 전자입찰 중 약 10만 건의 공동도급 체결을 지원하는 온라인 시스템 개발",
+        "React 기반으로 사정률 분석 프로그램을 마이그레이션하여 시스템 최적화",
+        "연간 1억 개의 입찰 참여업체 로그를 효과적으로 조회할 수 있도록 [인덱스 최적화, 파티셔닝, 풀텍스트 검색] 적용",
       ],
-      languages: ["PHP", "Laravel", "Mysql", "React", "Rocky Linux"],
+      languages: ["PHP", "Laravel","Jquery","Mysql", "React", "Rocky Linux"],
     },
     {
       title: "(주)터전",
       link: "https://www.terjeon.com/",
-      descriptions: [
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quae, blanditiis minima culpa quaerat optio cupiditate itaque. Eaque dignissimos dicta reprehenderit eveniet, possimus ab cum ea illum quis modi veniam?",
-      ],
+      descriptions: ["공사 참여를 위한 내역서 자동화 시스템 개발 (.BID 파일의 구조를 .ZIP 포맷으로 변환 후 내부 데이터를 파싱)","PHP CI2 기반 시스템을 Laravel로 마이그레이션하여 보안 강화 및 PHP 버전 업그레이드"],
       languages: ["PHP", "Laravel", "Mysql", "React", "Rocky Linux"],
     },
   ];
