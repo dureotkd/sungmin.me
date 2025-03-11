@@ -28,6 +28,16 @@ const listItemVariants = {
 export default function Main() {
   const projects = [
     {
+      title: "3D Lion Portfolio",
+      link: "https://www.itsmeiris.com",
+      descriptions: [
+        "Three.js를 활용한 3D 애니메이션 개발",
+        "tailwind를 활용한 반응형 웹 개발",
+        "Pure PHP + Maria DB를 활용한 백엔드 개발",
+      ],
+      languages: ["Three.js", "Node.js", "Javascript"],
+    },
+    {
       title: "Programmers",
       link: "https://exam-six-cyan.vercel.app",
       descriptions: [
@@ -84,12 +94,15 @@ export default function Main() {
         "React 기반으로 사정률 분석 프로그램을 마이그레이션하여 시스템 최적화",
         "연간 1억 개의 입찰 참여업체 로그를 효과적으로 조회할 수 있도록 [인덱스 최적화, 파티셔닝, 풀텍스트 검색] 적용",
       ],
-      languages: ["PHP", "Laravel","Jquery","Mysql", "React", "Rocky Linux"],
+      languages: ["PHP", "Laravel", "Jquery", "Mysql", "React", "Rocky Linux"],
     },
     {
       title: "(주)터전",
       link: "https://www.terjeon.com/",
-      descriptions: ["공사 참여를 위한 내역서 자동화 시스템 개발 (.BID 파일의 구조를 .ZIP 포맷으로 변환 후 내부 데이터를 파싱)","PHP CI2 기반 시스템을 Laravel로 마이그레이션하여 보안 강화 및 PHP 버전 업그레이드"],
+      descriptions: [
+        "공사 참여를 위한 내역서 자동화 시스템 개발 (.BID 파일의 구조를 .ZIP 포맷으로 변환 후 내부 데이터를 파싱)",
+        "PHP CI2 기반 시스템을 Laravel로 마이그레이션하여 보안 강화 및 PHP 버전 업그레이드",
+      ],
       languages: ["PHP", "Laravel", "Mysql", "React", "Rocky Linux"],
     },
   ];
