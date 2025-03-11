@@ -28,7 +28,7 @@ const listItemVariants = {
 export default function Main() {
   const projects = [
     {
-      title: "3D Lion Portfolio",
+      title: "3D Lion Portfolio (외주 프로젝트)",
       link: "https://www.itsmeiris.com",
       descriptions: [
         "Three.js를 활용한 3D 애니메이션 개발",
@@ -58,7 +58,7 @@ export default function Main() {
       languages: ["Next.js", "Node.js", "Jest", "Typescript"],
     },
     {
-      title: "Ethicstem",
+      title: "Ethicstem (외주 프로젝트)",
       link: "https://ethicstem.kr",
       descriptions: [
         "도메인 정책 수립 및 URL 표준화(canonical)",
