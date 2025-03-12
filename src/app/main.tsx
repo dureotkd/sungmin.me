@@ -41,7 +41,7 @@ export default function Main() {
       title: "Gamemarket (외주 프로젝트)",
       link: "https://gamemarket.kr",
       descriptions: [
-        "일 활성 사용자(DAU) 1,500명 이상을 유지하며, 월 거래대금 10억 원 규모의 서비스 운영",
+        "DAU 1,500명 이상 및 월 거래대금 10억 원 규모의 시스템 개발 및 관리",
         "이노페이 결제 모듈 연동",
         "NICE 개인정보 모듈 연동",
         "Socket.io 기반 실시간 채팅 시스템 구축",
