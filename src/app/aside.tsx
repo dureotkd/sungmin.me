@@ -15,6 +15,13 @@ function aside() {
             width={200}
             height={200}
           />
+          <Image
+            className="md:w-full w-32 rounded-sm !hidden"
+            src="/image.gif"
+            alt="컨셉_사진"
+            width={200}
+            height={200}
+          />
         </div>
 
         <div className="flex flex-col justify-between md:mt-md">
