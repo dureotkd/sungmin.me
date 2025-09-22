@@ -89,7 +89,7 @@ export default function Main() {
       languages: ["React", "Node.js", "Javascript"],
     },
     {
-      title: "부동산 매물 알리미",
+      title: "부동산 매물 알리미 (작동 중단)",
       link: "https://www.areleme.com",
       descriptions: [
         "FSD 아키텍처 개발",
