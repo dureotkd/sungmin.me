@@ -38,6 +38,37 @@ export default function Main() {
       languages: ["Three.js", "Node.js", "Javascript"],
     },
     {
+      title: "모시헬스 커머스/쇼핑몰 (외주 프로젝트)",
+      link: "https://www.mosihealth.com",
+      descriptions: [
+        "Tailwind CSS를 활용한 반응형 웹 개발",
+        "CodeIgniter 2 프레임워크와 MariaDB를 활용한 백엔드 개발",
+        "상품 관리, 결제, 회원 관리 등 전반적인 커머스 기능 구현",
+      ],
+      languages: ["PHP (CodeIgniter2)", "Tailwind CSS", "Javascript"],
+    },
+    {
+      title: "정보공유 커뮤니티 (외주 프로젝트)",
+      link: "https://infoverse.club",
+      descriptions: [
+        "Tailwind CSS를 활용한 반응형 웹 개발",
+        "Next.js 프레임워크와 MariaDB 기반의 백엔드 개발",
+        "next-intl을 활용한 다국어(i18n) 지원 구현",
+        "Toss Payments 결제 모듈 연동",
+        "게시글 작성/마크업, 댓글, 좋아요, 채팅 등 커뮤니티 핵심 기능 개발",
+      ],
+      languages: ["Next.js", "Tailwind CSS", "Javascript", "MariaDB"],
+    },
+    {
+      title: "사주 분석 (외주 프로젝트)",
+      link: "https://www.saju.asia",
+      descriptions: [
+        "Tailwind CSS를 활용한 반응형 웹 개발",
+        "Next.js 프레임워크와 MariaDB를 활용한 백엔드 개발",
+      ],
+      languages: ["PHP (CodeIgniter2)", "Tailwind CSS", "Next.js"],
+    },
+    {
       title: "Gamemarket (외주 프로젝트)",
       link: "https://gamemarket.kr",
       descriptions: [
