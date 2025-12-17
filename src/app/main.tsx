@@ -28,47 +28,6 @@ const listItemVariants = {
 export default function Main() {
   const projects = [
     {
-      title: "3D Lion Portfolio (외주 프로젝트)",
-      link: "https://www.itsmeiris.com",
-      descriptions: [
-        "Three.js를 활용한 3D 애니메이션 개발",
-        "tailwind를 활용한 반응형 웹 개발",
-        "Pure PHP + Maria DB를 활용한 백엔드 개발",
-      ],
-      languages: ["Three.js", "Node.js", "Javascript"],
-    },
-    {
-      title: "모시헬스 커머스/쇼핑몰 (외주 프로젝트)",
-      link: "https://www.mosihealth.com",
-      descriptions: [
-        "Tailwind CSS를 활용한 반응형 웹 개발",
-        "CodeIgniter 2 프레임워크와 MariaDB를 활용한 백엔드 개발",
-        "상품 관리, 결제, 회원 관리 등 전반적인 커머스 기능 구현",
-      ],
-      languages: ["PHP (CodeIgniter2)", "Tailwind CSS", "Javascript"],
-    },
-    {
-      title: "정보공유 커뮤니티 (외주 프로젝트)",
-      link: "https://infoverse.club",
-      descriptions: [
-        "Tailwind CSS를 활용한 반응형 웹 개발",
-        "Next.js 프레임워크와 MariaDB 기반의 백엔드 개발",
-        "next-intl을 활용한 다국어(i18n) 지원 구현",
-        "Toss Payments 결제 모듈 연동",
-        "게시글 작성/마크업, 댓글, 좋아요, 채팅 등 커뮤니티 핵심 기능 개발",
-      ],
-      languages: ["Next.js", "Tailwind CSS", "Javascript", "MariaDB"],
-    },
-    {
-      title: "사주 분석 (외주 프로젝트)",
-      link: "https://www.saju.asia",
-      descriptions: [
-        "Tailwind CSS를 활용한 반응형 웹 개발",
-        "Next.js 프레임워크와 MariaDB를 활용한 백엔드 개발",
-      ],
-      languages: ["PHP (CodeIgniter2)", "Tailwind CSS", "Next.js"],
-    },
-    {
       title: "Gamemarket (외주 프로젝트)",
       link: "https://gamemarket.kr",
       descriptions: [
@@ -87,6 +46,75 @@ export default function Main() {
         "tailwind를 활용한 반응형 웹 개발",
       ],
       languages: ["React", "Node.js", "Javascript"],
+    },
+    {
+      title: "League of Legends 밴픽 시뮬레이션",
+      link: "https://lolban.vercel.app",
+      descriptions: [
+        "MVC 아키텍처 개발",
+        "Socket.io를 활용한 양방향 통신 이벤트 개발",
+      ],
+      languages: ["React", "Node.js", "Javascript"],
+    },
+    {
+      title: "3D Lion Portfolio (외주 프로젝트)",
+      link: "https://www.itsmeiris.com",
+      descriptions: [
+        "Three.js를 활용한 3D 애니메이션 개발",
+        "tailwind를 활용한 반응형 웹 개발",
+        "Pure PHP + Maria DB를 활용한 백엔드 개발",
+      ],
+      languages: ["Three.js", "Node.js", "Javascript"],
+    },
+    {
+      title: "정보공유 커뮤니티 (외주 프로젝트)",
+      link: "https://infoverse.club",
+      descriptions: [
+        "Tailwind CSS를 활용한 반응형 웹 개발",
+        "Next.js 프레임워크와 MariaDB 기반의 백엔드 개발",
+        "next-intl을 활용한 다국어(i18n) 지원 구현",
+        "Toss Payments 결제 모듈 연동",
+        "게시글 작성/마크업, 댓글, 좋아요, 채팅 등 커뮤니티 핵심 기능 개발",
+      ],
+      languages: ["Next.js", "Tailwind CSS", "Javascript", "MariaDB"],
+    },
+    {
+      title: "비드코칭연구소(주)",
+      link: "https://www.okems.net",
+      descriptions: [
+        "연간 100만 건의 전자입찰 중 약 10만 건의 공동도급 체결을 지원하는 온라인 시스템 개발",
+        "React 기반으로 사정률 분석 프로그램을 마이그레이션하여 시스템 최적화",
+        "연간 1억 개의 입찰 참여업체 로그를 효과적으로 조회할 수 있도록 [인덱스 최적화, 파티셔닝, 풀텍스트 검색] 적용",
+      ],
+      languages: ["PHP", "Laravel", "Jquery", "Mysql", "React", "Rocky Linux"],
+    },
+    {
+      title: "(주)터전",
+      link: "https://www.terjeon.com/",
+      descriptions: [
+        "공사 참여를 위한 내역서 자동화 시스템 개발 (.BID 파일의 구조를 .ZIP 포맷으로 변환 후 내부 데이터를 파싱)",
+        "PHP CI2 기반 시스템을 Laravel로 마이그레이션하여 보안 강화 및 PHP 버전 업그레이드",
+      ],
+      languages: ["PHP", "Laravel", "Mysql", "React", "Rocky Linux"],
+    },
+    {
+      title: "모시헬스 커머스/쇼핑몰 (외주 프로젝트)",
+      link: "https://www.mosihealth.com",
+      descriptions: [
+        "Tailwind CSS를 활용한 반응형 웹 개발",
+        "CodeIgniter 2 프레임워크와 MariaDB를 활용한 백엔드 개발",
+        "상품 관리, 결제, 회원 관리 등 전반적인 커머스 기능 구현",
+      ],
+      languages: ["PHP (CodeIgniter2)", "Tailwind CSS", "Javascript"],
+    },
+    {
+      title: "사주 분석 (외주 프로젝트)",
+      link: "https://www.saju.asia",
+      descriptions: [
+        "Tailwind CSS를 활용한 반응형 웹 개발",
+        "Next.js 프레임워크와 MariaDB를 활용한 백엔드 개발",
+      ],
+      languages: ["PHP (CodeIgniter2)", "Tailwind CSS", "Next.js"],
     },
     {
       title: "부동산 매물 알리미 (작동 중단)",
@@ -109,15 +137,6 @@ export default function Main() {
       languages: ["HTML", "CSS", "Javascript"],
     },
     {
-      title: "League of Legends 밴픽 시뮬레이션",
-      link: "https://lolban.vercel.app",
-      descriptions: [
-        "MVC 아키텍처 개발",
-        "Socket.io를 활용한 양방향 통신 이벤트 개발",
-      ],
-      languages: ["React", "Node.js", "Javascript"],
-    },
-    {
       title: "모주지 - 선물 큐레이션 서비스",
       link: "https://disquiet.io/product/%EB%AA%A8%EC%A3%BC%EC%A7%80",
       descriptions: [
@@ -127,25 +146,6 @@ export default function Main() {
         "Proguard를 통한 App Volumne 최적화",
       ],
       languages: ["React Native CLI", "Javascript"],
-    },
-    {
-      title: "비드코칭연구소(주)",
-      link: "https://www.okems.net",
-      descriptions: [
-        "연간 100만 건의 전자입찰 중 약 10만 건의 공동도급 체결을 지원하는 온라인 시스템 개발",
-        "React 기반으로 사정률 분석 프로그램을 마이그레이션하여 시스템 최적화",
-        "연간 1억 개의 입찰 참여업체 로그를 효과적으로 조회할 수 있도록 [인덱스 최적화, 파티셔닝, 풀텍스트 검색] 적용",
-      ],
-      languages: ["PHP", "Laravel", "Jquery", "Mysql", "React", "Rocky Linux"],
-    },
-    {
-      title: "(주)터전",
-      link: "https://www.terjeon.com/",
-      descriptions: [
-        "공사 참여를 위한 내역서 자동화 시스템 개발 (.BID 파일의 구조를 .ZIP 포맷으로 변환 후 내부 데이터를 파싱)",
-        "PHP CI2 기반 시스템을 Laravel로 마이그레이션하여 보안 강화 및 PHP 버전 업그레이드",
-      ],
-      languages: ["PHP", "Laravel", "Mysql", "React", "Rocky Linux"],
     },
   ];
 
